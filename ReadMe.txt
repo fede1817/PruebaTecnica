@@ -31,4 +31,30 @@ npx react-native run-android
 iOS:
 npx react-native run-ios
 
+Decisiones Técnicas
+1. Por qué Redux Toolkit vs Context API?
+Manejo complejo de estado asíncrono (paginación + búsqueda)
+
+DevTools integradas para debugging
+
+Código más mantenible con slices
+
+Mejor performance con selectores memoizados
+
+2. Por qué Axios vs Fetch?
+Interceptores para logging/errors
+
+Cancelación de requests
+
+Timeout automático
+
+Transformación de datos integrada
+
+3. Por qué Paginación Real vs Simulada?
+Demostración de integración con API real
+
+Comportamiento más realista
+
+Mejor manejo de grandes conjuntos de datos
+
 
